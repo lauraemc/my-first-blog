@@ -1,4 +1,4 @@
-﻿body {
+/*body {
     padding-left: 15px;
 }
 
@@ -52,4 +52,12 @@ h1, h2, h3, h4 {
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+}
+
+*/
+.profileIm {
+    border-radius: 20px;
+    max-height: 200px;
+    height: 70%;
+    width: auto;
 }

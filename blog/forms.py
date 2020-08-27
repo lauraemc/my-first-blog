@@ -7,4 +7,6 @@ class PostForm(forms.ModelForm):#name of form = PostForm
 
     class Meta:
         model = Post
-        fields = ('title', 'text',)
+        fields = ('title', 'text_preview','text',)
+
+# is text_preview required?
