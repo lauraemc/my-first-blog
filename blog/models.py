@@ -46,7 +46,7 @@ class WorkElement(models.Model):
 class EduElement(models.Model):
     dates = models.TextField()
     title = models.TextField()
-    subTitle = models.TextField()
+    subTitle = models.TextField(blank=True)
     text = models.TextField()
     published_date = models.DateTimeField(blank=True, null=True)
 
