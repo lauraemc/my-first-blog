@@ -1,5 +1,22 @@
-/*body {
+:root {
+    --main-bg-color: #2e3141;
+    --tone1: #4c5c96;
+    --tone2: #45558d;
+    --tone3: #3f4e85;
+}
+
+body {
     padding-left: 15px;
+    
+}
+
+#detail_body {
+    background-color: black !important;
+}
+
+#header-sub {
+    padding-left: 15px;
+
 }
 
 h1 a, h2 a {
@@ -50,11 +67,12 @@ h1, h2, h3, h4 {
     margin-bottom: 70px;
 }
 
+
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }
 
-*/
+
 .profileIm {
     border-radius: 20px;
     max-height: 200px;

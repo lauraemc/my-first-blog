@@ -1,4 +1,5 @@
 ﻿{% load static %}
+
 <!DOCTYPE HTML>
 <!--
     Solid State by HTML5 UP
@@ -15,127 +16,136 @@
     <noscript><link rel="stylesheet" href="{% static 'imported/css/noscript.css' %}" /></noscript>
 </head>
 
-<body class="is-preload">
+    <body class="is-preload">
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
 
-        <!-- Header -->
-        <header id="header" class="alt">
-            <h1><a href="/">Laura's Bridging Coursework!</a></h1>
-        </header>
+            <!-- Header -->
+            <header id="header" class="alt">
+                <h1><a href="/">Laura's Bridging Coursework!</a></h1>
+            </header>
 
-        <!-- Banner -->
-        <section id="banner">
-            <div class="inner">
-                <img src="{% static 'other/images/Profile.jpg' %}" alt="Laura's profile picture" class="profileIm" />
-                <h2>Laura  Cope</h2>
-                <p>Technology Degree Apprentice, Studying at the University of Birmingham</p>
-            </div>
+            <!-- Banner -->
+            <section id="banner">
+                <div class="inner">
+                    <img src="{% static 'other/images/Profile.jpg' %}" alt="Laura's profile picture" class="profileIm" />
+                    <h2>Laura  Cope</h2>
+                    <p>Technology Degree Apprentice, Studying at the University of Birmingham</p>
+                </div>
+            </section>
+            <!-- Wrapper -->
+            <section id="wrapper">
 
+                <section id="one" class="wrapper">
+                    <div class="inner">
+                        <h2 class="major">My CV</h2>
+                        <p>
+                            Strong technical background (fluent in Java, SQL and Python) within hands-on business
+                            experience gained from work placements at PwC. Interested in solution architecture, cyber security
+                            and supporting the development of emerging technologies.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- One -->
+                <section id="one" class="wrapper spotlight style1">
+                    <div class="inner">
+
+                        <a href="#" class="image"><img src="{% static 'imported/images/pic01.jpg' %}" alt="" /></a>
+                        <div class="content">
+                            <h2 class="major">Magna arcu feugiat</h2>
+                            <p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+                            <a href="#" class="special">Learn more</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Two -->
+                <section id="two" class="wrapper alt spotlight style2">
+                    <div class="inner">
+                        <a href="#" class="image"><img src="{% static 'imported/images/pic02.jpg' %}" alt="" /></a>
+                        <div class="content">
+                            <h2 class="major">Tempus adipiscing</h2>
+                            <p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+                            <a href="#" class="special">Learn more</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Three -->
+                <section id="three" class="wrapper spotlight style3">
+                    <div class="inner">
+                        <a href="#" class="image"><img src="{% static 'imported/images/pic03.jpg' %}" alt="" /></a>
+                        <div class="content">
+                            <h2 class="major">Nullam dignissim</h2>
+                            <p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+                            <a href="#" class="special">Learn more</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Four -->
+                <section id="four" class="wrapper alt style1">
+                    <div class="inner">
+                        <h2 class="major">My Blog <a href="{% url 'post_new' %}">&#43</a></h2>
+                        
+                        <p>
+                            A short series of posts about my university experience and this website.
+
+
+
+                        </p>
+                        <section class="features">
+                            {% block content %}
+                            {% for post in posts %}
+                            <article>
+                                <a href="#" class="image"><img src="{% static post.image_path%} " alt="Blog Image" /></a>
+                                <h3 class="major">{{ post.title }}</h3>
+                                {% if post.text_preview == "" %}
+                                <br>
+                                {% endif %}
+
+                                <p>{{post.text_preview|linebreaksbr}}</p>
+                                <br>
+                                <a href="{% url 'post_detail' pk=post.pk %}" class="special">View post</a>
+                            </article>
+                            {% endfor %}
+                            {% endblock %}
+
+                        </section>
+                        <!--<ul class="actions">
+        <li><a href="#" class="button">Browse All</a></li>
+    </ul>-->
+                    </div>
+                </section>
+
+            </section>
+
+            <!-- Footer -->
+            <section id="footer">
+                <div class="inner">
+                    <ul class="copyright">
+                        <li>&copy; Untitled Inc. All rights reserved.</li>
+                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
         </section>
-
-    <!-- Wrapper -->
-        <section id="wrapper">
-
-            <section id="one" class="wrapper">
-                <div class="inner">
-                    <h2 class="major">My CV</h2>
-                    <p>
-                        Strong technical background (fluent in Java, SQL and Python) within hands-on business
-                        experience gained from work placements at PwC. Interested in solution architecture, cyber security
-                        and supporting the development of emerging technologies.
-                    </p>
-                </div>
-            </section>
-
-            <!-- One -->
-            <section id="one" class="wrapper spotlight style1">
-                <div class="inner">
-
-                    <a href="#" class="image"><img src="{% static 'imported/images/pic01.jpg' %}" alt="" /></a>
-                    <div class="content">
-                        <h2 class="major">Magna arcu feugiat</h2>
-                        <p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Two -->
-            <section id="two" class="wrapper alt spotlight style2">
-                <div class="inner">
-                    <a href="#" class="image"><img src="{% static 'imported/images/pic02.jpg' %}" alt="" /></a>
-                    <div class="content">
-                        <h2 class="major">Tempus adipiscing</h2>
-                        <p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Three -->
-            <section id="three" class="wrapper spotlight style3">
-                <div class="inner">
-                    <a href="#" class="image"><img src="{% static 'imported/images/pic03.jpg' %}" alt="" /></a>
-                    <div class="content">
-                        <h2 class="major">Nullam dignissim</h2>
-                        <p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Four -->
-            <section id="four" class="wrapper alt style1">
-                <div class="inner">
-                    <h2 class="major">My Blog</h2>
-                    <p>A short series of posts about my university experience and this website.</p>
-                    <section class="features">
-                        {% block content %}
-                        {% for post in posts %}
-                        <article>
-                            <a class="image"><img src="{% static post.image_path%} " alt="Blog Image" /></a>
-                            <h3 class="major">{{ post.title }}</h3>
-                            {% if post.text_preview == "" %}
-                            <br>
-                            {% endif %}
-
-                            <p>{{post.text_preview|linebreaksbr}}</p>
-                            <br>
-                            <a href="{% url 'post_detail' pk=post.pk %}" class="special">View post</a>
-                        </article>
-                        {% endfor %}
-                        {% endblock %}
-
-                    </section>
-                    <!--<ul class="actions">
-                <li><a href="#" class="button">Browse All</a></li>
-            </ul>-->
-                </div>
-            </section>
-
-        </section>
-
-    <!-- Footer -->
-    <section id="footer">
-        <div class="inner">
-            <ul class="copyright">
-                <li>&copy; Untitled Inc. All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </div>
-    </section>
 
     </div>
 
     <!-- Scripts-->
-    <script src="{% static 'imported/js/jquery.min.js' %}"></script>
-    <script src="{% static 'imported/js/jquery.scrollex.min.js' %}"></script>
-    <script src="{% static 'imported/js/browser.min.js' %}"></script>
-    <script src="{% static 'imported/js/breakpoints.min.js' %}"></script>
-    <script src="{% static 'imported/js/util.js' %}"></script>
-    <script src="{% static 'imported/js/main.js' %}"></script>
+                    <script src="{% static 'imported/js/jquery.min.js' %}"></script>
+                    <script src="{% static 'imported/js/jquery.scrollex.min.js' %}"></script>
+                    <script src="{% static 'imported/js/browser.min.js' %}"></script>
+                    <script src="{% static 'imported/js/breakpoints.min.js' %}"></script>
+                    <script src="{% static 'imported/js/util.js' %}"></script>
+                    <script src="{% static 'imported/js/main.js' %}"></script>
 
 </body>
 </html>
+
+
+
+
+

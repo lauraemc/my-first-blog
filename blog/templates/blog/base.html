@@ -4,56 +4,52 @@
 <!DOCTYPE html>
 
 
+<style>
+    .header-sub {
+        background-color: rgba(53, 56, 73, 0.95);
+        font-size: 0.8em;
+        padding: 0 1.25em 0 1.25em;
+        height: 3.5em;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        line-height: 44px;
+    }
+    .header-sub-text {
+        height: 44px;
+        line-height: 44px;
+        margin: 0 0 0 0;
+
+    }
+
+</style>
 
 <html>
 <head>
-    <title>Laura's Bridging Coursework blog!</title>
+    
+    <title>Laura's Bridging Coursework!</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="{% static 'css/imported/main.css' %}" />
-    <noscript><link rel="stylesheet" href="{% static 'css/imported/noscript.css' %}" /></noscript>
+
+    <link rel="stylesheet" href="{% static 'imported/css/main.css' %}" />
 </head>
 
-<body class="is-preload">
+
+<body class="is-preload" id="detail_body" >
 
     <!-- Page Wrapper -->
     <div id="page-wrapper">
 
 
         <!-- Header -->
-        <header id="header" class="page-header">
-            {% if user.is_authenticated %}
-                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-            {% endif %}
-
-            <h1><a href="/">Laura's Bridging Coursework blog!</a></h1>
-            <!--<nav>
-                ---a href="#menu">Menu</---a>
-            </nav>-->
+        <header class="header-sub">
+            <h1 class="header-sub-text"><a href="/">Laura's Bridging Coursework!</a></h1>
         </header>
 
-
-
-        <!-- Menu
-            <nav id="menu">
-                <div class="inner">
-                    <h2>Menu</h2>
-                    <ul class="links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="#">Generic</a></li>
-                        <li><a href="#">Elements</a></li>
-                        <li><a href="#">Log In</a></li>
-                        <li><a href="#">Sign Up</a></li>
-                    </ul>
-                    <a href="#" class="close">Close</a>
-                </div>
-            </nav>-->
-
+        <br />
 
 
         <div class="content container">
@@ -67,8 +63,9 @@
 
     </div>
 
-    <!-- Scripts -->
+
 
 
 </body>
 </html>
+
