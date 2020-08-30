@@ -49,9 +49,11 @@
                 </section>
 
                 <!-- One -->
+              
                 <section id="one" class="wrapper spotlight style1">
                     <div class="inner">
-                        <a href="#" class="image"><img src="{% static 'imported/images/pic01.jpg' %}" alt="" /></a>
+                        {% load static %}
+                        <a class="image"><img src="{% static 'other/images/pwc-group.jpg' %}" alt="" /></a>
                         <div class="content">
                             <h2 class="major">Work Summary</h2>
                             {% for job in jobs %}
@@ -76,20 +78,20 @@
                 <!-- Two -->
                 <section id="two" class="wrapper alt spotlight style2">
                     <div class="inner">
-                        <a href="#" class="image"><img src="{% static 'imported/images/pic02.jpg' %}" alt="" /></a>
+                        <a class="image"><img src="{% static 'other/images/cssGroupPhoto.jpg' %}" alt="" /></a>
                         <div class="content">
                             <h2 class="major">Volunteering</h2>
                             {% for job in jobs %}
                             {% if job.paid == False %}
-                                {{job.dates}}
-                                <p style="margin-left:10%; margin-right:10%;">
-                                    <b>{{job.employer}}</b>, {{job.location}}
-                                    <br />
-                                    <i>{{job.position}}</i><br />
-                                    {% for job in job.assignments_as_list%}
-                                    &#8226 {{job}}<br />
-                                    {% endfor %}
-                                </p>
+                            {{job.dates}}
+                            <p style="margin-left:10%; margin-right:10%;">
+                                <b>{{job.employer}}</b>, {{job.location}}
+                                <br />
+                                <i>{{job.position}}</i><br />
+                                {% for job in job.assignments_as_list%}
+                                &#8226 {{job}}<br />
+                                {% endfor %}
+                            </p>
                             {% endif %}
                             <br />
                             {% endfor %}
@@ -100,21 +102,21 @@
                 <!-- Three -->
                 <section id="three" class="wrapper spotlight style3">
                     <div class="inner">
-                        <a href="#" class="image"><img src="{% static 'other/images/test.jpg' %}" alt="" /></a>
+                        <a href="#" class="image"><img src="{% static 'other/images/dt.jpg' %}" alt="" /></a>
                         <div class="content">
                             <h2 class="major">Education</h2>
                             {% for school in edu %}
 
-                                {{school.dates}} 
-                        <p style="margin-left:10%; margin-right:10%;">
-                            {{school.title}}<br />
-                            <b>{{school.subTitle}}</b>
-                            <br />
-                            {% for line in school.text_as_list%}
-                            &#8226 {{line}}<br />
-                            {% endfor %}
-                        </p>
+                            {{school.dates}}
+                            <p style="margin-left:10%; margin-right:10%;">
+                                {{school.title}}<br />
+                                <b>{{school.subTitle}}</b>
                                 <br />
+                                {% for line in school.text_as_list%}
+                                &#8226 {{line}}<br />
+                                {% endfor %}
+                            </p>
+                            <br />
                             {% endfor %}
                         </div>
                     </div>
@@ -123,7 +125,7 @@
                 <!-- Four -->
                 <section id="two" class="wrapper alt spotlight style2">
                     <div class="inner">
-                        <a href="#" class="image"><img src="{% static 'imported/images/pic02.jpg' %}" alt="" /></a>
+                        <a href="#" class="image"><img src="{% static 'other/images/technical2.jpg' %}" alt="" /></a>
                         <div class="content">
                             <h2 class="major">Technical Skills</h2>
                             <p>
@@ -138,7 +140,7 @@
                 <!-- Five -->
                 <section id="three" class="wrapper spotlight style3">
                     <div class="inner">
-                        <a href="#" class="image"><img src="{% static 'imported/images/pic03.jpg' %}" alt="" /></a>
+                        <a href="#" class="image"><img src="{% static 'other/images/innovatePhoto.jpg' %}" alt="" /></a>
                         <div class="content">
                             <h2 class="major">Extracurricular</h2>
                             <p>{{extra.0.text|linebreaksbr}}</p>
