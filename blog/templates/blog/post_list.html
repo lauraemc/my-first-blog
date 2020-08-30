@@ -88,7 +88,7 @@
                 <!-- Four -->
                 <section id="four" class="wrapper alt style1">
                     <div class="inner">
-                        <h2 class="major">My Blog <a href="{% url 'post_new' %}">&#43</a></h2>
+                        <h2 class="major">My Blog {% if user.is_authenticated %} <a href="{% url 'post_new' %}">&#43</a> {% endif %}</h2>
                         
                         <p>
                             A short series of posts about my university experience and this website.
