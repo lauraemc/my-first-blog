@@ -9,7 +9,7 @@ from django.shortcuts import redirect
 
 def post_list(request):
    posts =  Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-   jobs = WorkElement.objects.filter(published_date__lte=timezone.now()).order_by('dates')  
+   jobs = WorkElement.objects.filter(published_date__lte=timezone.now()).order_by('-dates')  
    edu = EduElement.objects.filter(published_date__lte=timezone.now()).order_by('dates')
    skills = Skills.objects.filter(published_date__lte=timezone.now()).order_by('created_date')
    extra = Extra.objects.filter(published_date__lte=timezone.now()).order_by('created_date')
