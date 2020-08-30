@@ -1,0 +1,312 @@
+1598625671717	geckodriver	INFO	Listening on 127.0.0.1:52292
+1598625671731	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileaxctRB"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598625673998	Marionette	INFO	Listening on port 52297
+1598625674075	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598625713809	geckodriver	INFO	Listening on 127.0.0.1:52374
+1598625713820	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofile4LdUib"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598625715890	Marionette	INFO	Listening on port 52379
+1598625715982	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598625836251	geckodriver	INFO	Listening on 127.0.0.1:52518
+1598625837273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileuTvVy1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598625839619	Marionette	INFO	Listening on port 52526
+1598625839644	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598625848557	Marionette	INFO	Stopped listening on port 52297
+1598626000333	geckodriver	INFO	Listening on 127.0.0.1:52611
+1598626001349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilefQ0DlG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598626003633	Marionette	INFO	Listening on port 52619
+1598626003726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598626011913	Marionette	INFO	Stopped listening on port 52379
+1598626016213	Marionette	INFO	Stopped listening on port 52526
+1598626023765	geckodriver	INFO	Listening on 127.0.0.1:52679
+1598626023778	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileuuHdNe"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598626025857	Marionette	INFO	Listening on port 52684
+1598626025947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598626159493	geckodriver	INFO	Listening on 127.0.0.1:52757
+1598626159503	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilenHRZuZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598626161711	Marionette	INFO	Listening on port 52762
+1598626161767	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598626184844	geckodriver	INFO	Listening on 127.0.0.1:52823
+1598626184855	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileogIG7Z"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598626187009	Marionette	INFO	Listening on port 52828
+1598626187029	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598626204011	Marionette	INFO	Stopped listening on port 52828
+1598626207319	Marionette	INFO	Stopped listening on port 52684
+1598626212484	Marionette	INFO	Stopped listening on port 52762
+1598626216735	Marionette	INFO	Stopped listening on port 52619
+1598631341576	geckodriver	INFO	Listening on 127.0.0.1:53631
+1598631342598	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofiler3fVdK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598631345022	Marionette	INFO	Listening on port 53640
+1598631345044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598631346057	Marionette	INFO	Stopped listening on port 53640
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598632510360	geckodriver	INFO	Listening on 127.0.0.1:53972
+1598632511376	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilez8CRPT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598632513555	Marionette	INFO	Listening on port 53980
+1598632513628	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598632516181	Marionette	INFO	Stopped listening on port 53980
+1598632854926	geckodriver	INFO	Listening on 127.0.0.1:54136
+1598632855941	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileoFFahV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598632858099	Marionette	INFO	Listening on port 54144
+1598632858200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598632859878	Marionette	INFO	Stopped listening on port 54144
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598632869867	geckodriver	INFO	Listening on 127.0.0.1:54203
+1598632869878	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofile63Ck6c"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598632872025	Marionette	INFO	Listening on port 54208
+1598632872032	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598632873348	Marionette	INFO	Stopped listening on port 54208
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598632883889	geckodriver	INFO	Listening on 127.0.0.1:54265
+1598632884906	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileUkHHun"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598632887082	Marionette	INFO	Listening on port 54273
+1598632887173	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598632888436	Marionette	INFO	Stopped listening on port 54273
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598633065646	geckodriver	INFO	Listening on 127.0.0.1:54361
+1598633065655	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilelyJVPR"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598633067810	Marionette	INFO	Listening on port 54366
+1598633067902	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598633069491	Marionette	INFO	Stopped listening on port 54366
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598633159284	geckodriver	INFO	Listening on 127.0.0.1:54463
+1598633160305	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileDYFQOS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598633162632	Marionette	INFO	Listening on port 54472
+1598633162666	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598633164282	Marionette	INFO	Stopped listening on port 54472
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598633236525	geckodriver	INFO	Listening on 127.0.0.1:54542
+1598633236534	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilekmLGiE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598633238810	Marionette	INFO	Listening on port 54547
+1598633238886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598633240209	Marionette	INFO	Stopped listening on port 54547
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1598633483455	geckodriver	INFO	Listening on 127.0.0.1:54667
+1598633484467	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofile6Us3GU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598633487065	Marionette	INFO	Listening on port 54675
+1598633487144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598633488183	Marionette	INFO	Stopped listening on port 54675
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598633566203	geckodriver	INFO	Listening on 127.0.0.1:54743
+1598633566212	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileHGhhbX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598633568402	Marionette	INFO	Listening on port 54748
+1598633568473	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598633604766	Marionette	INFO	Stopped listening on port 54748
+1598634102734	geckodriver	INFO	Listening on 127.0.0.1:54962
+1598634103752	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilerCXG6l"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634106191	Marionette	INFO	Listening on port 54972
+1598634106268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634108419	Marionette	INFO	Stopped listening on port 54972
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634188902	geckodriver	INFO	Listening on 127.0.0.1:55035
+1598634188910	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileJHBxg3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634191034	Marionette	INFO	Listening on port 55040
+1598634191091	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634192420	Marionette	INFO	Stopped listening on port 55040
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634206730	geckodriver	INFO	Listening on 127.0.0.1:55102
+1598634206741	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileOFo0nE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634208878	Marionette	INFO	Listening on port 55107
+1598634208890	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634210238	Marionette	INFO	Stopped listening on port 55107
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634217868	geckodriver	INFO	Listening on 127.0.0.1:55168
+1598634217879	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileI2EJEX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634219961	Marionette	INFO	Listening on port 55173
+1598634220033	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634221376	Marionette	INFO	Stopped listening on port 55173
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634245353	geckodriver	INFO	Listening on 127.0.0.1:55235
+1598634245365	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofile8kDVD4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634247472	Marionette	INFO	Listening on port 55240
+1598634247504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634248605	Marionette	INFO	Stopped listening on port 55240
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634259105	geckodriver	INFO	Listening on 127.0.0.1:55303
+1598634259117	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileDiTQqE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634261190	Marionette	INFO	Listening on port 55308
+1598634261279	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634262600	Marionette	INFO	Stopped listening on port 55308
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634288072	geckodriver	INFO	Listening on 127.0.0.1:55384
+1598634288083	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileIOoq3P"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634290214	Marionette	INFO	Listening on port 55389
+1598634290237	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634291514	Marionette	INFO	Stopped listening on port 55389
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634338092	geckodriver	INFO	Listening on 127.0.0.1:55456
+1598634338101	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileRRxWIr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634340307	Marionette	INFO	Listening on port 55461
+1598634340342	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634341588	Marionette	INFO	Stopped listening on port 55461
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634369118	geckodriver	INFO	Listening on 127.0.0.1:55523
+1598634369130	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileytmB4s"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634371250	Marionette	INFO	Listening on port 55528
+1598634371285	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634372488	Marionette	INFO	Stopped listening on port 55528
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634401922	geckodriver	INFO	Listening on 127.0.0.1:55587
+1598634401930	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileue6Fcj"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634404064	Marionette	INFO	Listening on port 55592
+1598634404090	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634405536	Marionette	INFO	Stopped listening on port 55592
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634423553	geckodriver	INFO	Listening on 127.0.0.1:55652
+1598634423564	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilegfVJ2C"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634425771	Marionette	INFO	Listening on port 55657
+1598634425818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634427028	Marionette	INFO	Stopped listening on port 55657
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634477187	geckodriver	INFO	Listening on 127.0.0.1:55731
+1598634477196	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileNKy12h"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634479479	Marionette	INFO	Listening on port 55736
+1598634479557	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634481120	Marionette	INFO	Stopped listening on port 55736
+1598634542346	geckodriver	INFO	Listening on 127.0.0.1:55839
+1598634542354	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileICgvDA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634544554	Marionette	INFO	Listening on port 55844
+1598634544606	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634546359	Marionette	INFO	Stopped listening on port 55844
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634566503	geckodriver	INFO	Listening on 127.0.0.1:55905
+1598634566515	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileSDCsYS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634568602	Marionette	INFO	Listening on port 55910
+1598634568657	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634569920	Marionette	INFO	Stopped listening on port 55910
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634602897	geckodriver	INFO	Listening on 127.0.0.1:55974
+1598634602905	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileK0Uig2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634605112	Marionette	INFO	Listening on port 55979
+1598634605160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634606569	Marionette	INFO	Stopped listening on port 55979
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634760024	geckodriver	INFO	Listening on 127.0.0.1:56057
+1598634760034	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofile1gm3nB"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634762218	Marionette	INFO	Listening on port 56062
+1598634762284	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634764604	Marionette	INFO	Stopped listening on port 56062
+1598634809094	geckodriver	INFO	Listening on 127.0.0.1:56132
+1598634809102	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilemll3f2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634811258	Marionette	INFO	Listening on port 56137
+1598634811268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634813194	Marionette	INFO	Stopped listening on port 56137
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1598634831449	geckodriver	INFO	Listening on 127.0.0.1:56204
+1598634831461	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileLqoQ2H"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634833602	Marionette	INFO	Listening on port 56209
+1598634833624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634834988	Marionette	INFO	Stopped listening on port 56209
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634845595	geckodriver	INFO	Listening on 127.0.0.1:56268
+1598634845606	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileMtCO16"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634847705	Marionette	INFO	Listening on port 56273
+1598634847756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634848917	Marionette	INFO	Stopped listening on port 56273
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634853655	geckodriver	INFO	Listening on 127.0.0.1:56334
+1598634853666	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofileUDKKGZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634855825	Marionette	INFO	Listening on port 56339
+1598634855926	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634857274	Marionette	INFO	Stopped listening on port 56339
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598634879325	geckodriver	INFO	Listening on 127.0.0.1:56399
+1598634879337	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xm/zfsbkbtj0fg66_lk3qwy2zrr0000gn/T/rust_mozprofilerfoAbI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598634881488	Marionette	INFO	Listening on port 56404
+1598634881503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598634882871	Marionette	INFO	Stopped listening on port 56404
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
