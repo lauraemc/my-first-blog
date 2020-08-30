@@ -102,7 +102,7 @@
                 <!-- Three -->
                 <section id="three" class="wrapper spotlight style3">
                     <div class="inner">
-                        <a href="#" class="image"><img src="{% static 'other/images/dt.jpg' %}" alt="" /></a>
+                        <a class="image"><img src="{% static 'other/images/dt.jpg' %}" alt="" /></a>
                         <div class="content">
                             <h2 class="major">Education</h2>
                             {% for school in edu %}
@@ -125,7 +125,7 @@
                 <!-- Four -->
                 <section id="two" class="wrapper alt spotlight style2">
                     <div class="inner">
-                        <a href="#" class="image"><img src="{% static 'other/images/technical2.jpg' %}" alt="" /></a>
+                        <a  class="image"><img src="{% static 'other/images/technical2.jpg' %}" alt="" /></a>
                         <div class="content">
                             <h2 class="major">Technical Skills</h2>
                             <p>
@@ -140,7 +140,7 @@
                 <!-- Five -->
                 <section id="three" class="wrapper spotlight style3">
                     <div class="inner">
-                        <a href="#" class="image"><img src="{% static 'other/images/innovatePhoto.jpg' %}" alt="" /></a>
+                        <a  class="image"><img src="{% static 'other/images/innovatePhoto.jpg' %}" alt="" /></a>
                         <div class="content">
                             <h2 class="major">Extracurricular</h2>
                             <p>{{extra.0.text|linebreaksbr}}</p>
@@ -163,7 +163,7 @@
                             {% block content %}
                             {% for post in posts %}
                             <article>
-                                <a href="#" class="image"><img src="{% static post.image_path%} " alt="Blog Image" /></a>
+                                <a class="image"><img src="{% static post.image_path%} " alt="Blog Image" /></a>
                                 <h3 class="major">{{ post.title }}</h3>
                                 {% if post.text_preview == "" %}
                                 <br>
