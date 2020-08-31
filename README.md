@@ -2,13 +2,14 @@
 
 Created as part of University of Birmingham bridging coursework to progress from second year
 
-### Setup to site run locally
+## Run site locally
+### Setup 
 ```
 virtualenv venv
 source venv/bin/activate 
 pip install requirements.txt
 ```
-### Run site locally
+### Run 
 ```
 python manage.py runserver
 ```
@@ -20,6 +21,6 @@ python manage.py runserver
 ### Run unit tests
 `python manage.py test`
 
-### Resources:
+### Resources used:
 Tutorial - [Django girls](https://tutorial.djangogirls.org/en/)
 Design template - [HTML5 UP](https://html5up.net/solid-state
