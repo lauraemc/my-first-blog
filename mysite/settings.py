@@ -126,6 +126,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = [ "/../../django_env/blog/static", ]
+#STATICFILES_DIRS = [ "/../../django_env/blog/static", ]
 
 
