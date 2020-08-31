@@ -22,6 +22,6 @@ python manage.py runserver
 ### Run unit tests
 `python manage.py test`
 
-### Resources used:
+## Resources used:
 Tutorial - [Django girls](https://tutorial.djangogirls.org/en/)
 Design template - [HTML5 UP](https://html5up.net/solid-state
