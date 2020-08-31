@@ -23,7 +23,7 @@ python manage.py runserver
 `python manage.py test`
 
 * meets all tests when logged in - currently do not have functionality to log in guest users
-* as a result will encounter error when trying to access a page that you do not have permissions for - e.g. entering an edit post URL 
+* as a result will encounter error when trying to access a page that you do not have permissions for - e.g. manually entering an edit post URL 
 
 ## Resources used:
 Tutorial - [Django girls](https://tutorial.djangogirls.org/en/)
