@@ -24,4 +24,5 @@ python manage.py runserver
 
 ## Resources used:
 Tutorial - [Django girls](https://tutorial.djangogirls.org/en/)
+
 Design template - [HTML5 UP](https://html5up.net/solid-state)
