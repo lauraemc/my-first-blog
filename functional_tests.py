@@ -11,23 +11,31 @@ import unittest
 class NewVisitorTest(unittest.TestCase):  
 
     def setUp(self):  
-        self.browser = webdriver.Firefox()
-
+        self.browser = webdriver.Firefox()#driver
+        
     def tearDown(self):  
         self.browser.quit()
 
-    def test_can_start_a_list_and_retrieve_it_later(self):  
-        # Edith has heard about a cool new online to-do app. She goes
-        # to check out its homepage
+    def test_can_view_whole_cv(self):  
+        # User is able to log onto site
         self.browser.get('http://127.0.0.1:8000')
 
-        # She notices the page title and header mention CV section lists
+        # User able to view CV section on main page
+        self.assertTrue("CV" in self.browser.page_source);
 
-        #headerText = self.browser.find_element_by_tag_name('h2').text;
-        #print("header text" + headerText)
-        #self.assertTrue("Text not found!", "CV" in headerText);
+        # User able to view every CV section on main page
 
-        self.assertTrue("testedesdsd" in self.browser.page_source);
+        cvSections = ["Work Summary", "Volunteering", "Education","Technical Skills","Extracurricular"]
+        for section in cvSections:
+            self.assertTrue(section in self.browser.page_source);
+
+        #loginLink = self.browser.findElement(By.linkText("Work Summary"));
+        heading1 = self.browser.find_element_by_tag_name('h1').text
+        self.assertTrue("Work Summary" in heading1)
+        print(heading1)
+        #h1 = self.browser.find_element_by_xpath('/h1/[text()="Work Summary"]')
+
+        #self.assertTrue(selenium.isElementPresent("//H2[.='Work Summary']"));
 
         #self.assertIn('To-Do', self.browser.title)  
         #self.fail('Finish the test!')  

@@ -59,7 +59,7 @@
                             {% for job in jobs %}
                             {% if job.paid == True %}
                             {{job.dates}}
-                        <a class="btn btn-default " style="left:100px" href="{% url 'work_edit' pk=job.pk %}"> &#x270E;</a>
+                            {% if user.is_authenticated %}<a class="btn btn-default " style="left:100px" href="{% url 'work_edit' pk=job.pk %}"> &#x270E;</a>{% endif %}
                             <p style="margin-left:10%; margin-right:10%;">
                                 <b>{{job.employer}}</b>, {{job.location}}
                                 <br />
@@ -85,7 +85,7 @@
                             {% for job in jobs %}
                             {% if job.paid == False %}
                             {{job.dates}}
-                            <a class="btn btn-default " style="left:100px" href="{% url 'work_edit' pk=job.pk %}"> &#x270E;</a>
+                            {% if user.is_authenticated %}<a class="btn btn-default " style="left:100px" href="{% url 'work_edit' pk=job.pk %}"> &#x270E;</a>{% endif %}
                             <p style="margin-left:10%; margin-right:10%;">
                                 <b>{{job.employer}}</b>, {{job.location}}
                                 <br />
@@ -110,7 +110,7 @@
                             {% for school in edu %}
 
                             {{school.dates}}
-                            <a class="btn btn-default " style="left:100px" href="{% url 'edu_edit' pk=school.pk %}"> &#x270E;</a>
+                            {% if user.is_authenticated %}<a class="btn btn-default " style="left:100px" href="{% url 'edu_edit' pk=school.pk %}"> &#x270E;</a>{% endif %}
                             <p style="margin-left:10%; margin-right:10%;">
                                 {{school.title}}<br />
                                 <b>{{school.subTitle}}</b>
@@ -130,8 +130,10 @@
                     <div class="inner">
                         <a  class="image"><img src="{% static 'other/images/technical2.jpg' %}" alt="" /></a>
                         <div class="content">
-                            <h2 class="major">Technical Skills
-                            <a class="btn btn-default " style="left:100px" href="{% url 'skills_edit' pk=skills.0.pk%}"> &#x270E;</a></h2>
+                            <h2 class="major">
+                                Technical Skills
+                                {% if user.is_authenticated %}<a class="btn btn-default " style="left:100px" href="{% url 'skills_edit' pk=skills.0.pk%}"> &#x270E;</a>{% endif %}
+                            </h2>
                             <p>
                                 <b>Fluent in: </b> {{skills.0.fluent}}<br />
                                 <b>Experience with: </b> {{skills.0.experience}}
@@ -146,8 +148,9 @@
                     <div class="inner">
                         <a  class="image"><img src="{% static 'other/images/innovatePhoto.jpg' %}" alt="" /></a>
                         <div class="content">
-                            <h2 class="major">Extracurricular
-                                <a class="btn btn-default " style="left:100px" href="{% url 'extra_edit' pk=extra.0.pk %}"> &#x270E;</a>
+                            <h2 class="major">
+                                Extracurricular
+                                {% if user.is_authenticated %}<a class="btn btn-default " style="left:100px" href="{% url 'extra_edit' pk=extra.0.pk %}"> &#x270E;</a>{% endif %}
                             </h2>
                             <p>{{extra.0.text|linebreaksbr}}</p>
                         </div>
@@ -195,7 +198,7 @@
             <section id="footer">
                 <div class="inner">
                     <ul class="copyright">
-                        <li>&copy; Untitled Inc. All rights reserved.</li>
+
                         <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
                 </div>
