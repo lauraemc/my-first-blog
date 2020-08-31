@@ -3,11 +3,18 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+
+
 <h2>Edit field</h2>
+
+
 <form method="POST" class="post-form">
     {% csrf_token %}
+    {% if user.is_authenticated %}
     {{ form.as_p }}
+    {% endif %}
 
     <button type="submit" class="save btn btn-default">Save</button>
 </form>
+
 {% endblock %}

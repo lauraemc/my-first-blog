@@ -24,13 +24,12 @@ class Post(models.Model):
 
 
 class WorkElement(models.Model):
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     dates = models.TextField()
     employer = models.TextField()
     location = models.TextField()
     position = models.TextField()
     assignments = models.TextField()
-    paid = models.BooleanField()
+    paid = models.BooleanField(default=True,blank=True)
     published_date = models.DateTimeField(blank=True, null=True)
     
     def publish(self):
@@ -61,7 +60,6 @@ class EduElement(models.Model):
         return self.title 
 
 class Skills(models.Model):
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     fluent = models.TextField()
     experience = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
@@ -72,7 +70,6 @@ class Skills(models.Model):
         self.save()
 
 class Extra(models.Model):
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)

@@ -4,6 +4,7 @@ from .models import Post, WorkElement, EduElement, Skills, Extra
 from django.shortcuts import render, get_object_or_404
 from .forms import PostForm, WorkForm, EduForm, SkillsForm, ExtraForm
 from django.shortcuts import redirect
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
@@ -22,6 +23,7 @@ def post_detail(request, pk):
 
     return render(request, 'blog/post_detail.html', {'post': post})
 
+@login_required
 def post_new(request):
     if request.method == "POST":
         form = PostForm(request.POST)
@@ -35,7 +37,7 @@ def post_new(request):
         form = PostForm()
     return render(request, 'blog/post_edit.html', {'form': form})
 
-
+@login_required
 def post_edit(request, pk):#passing in extra param
     #get post model we want to edit
 
@@ -56,7 +58,7 @@ def post_edit(request, pk):#passing in extra param
 
 
 
-
+@login_required
 def work_edit(request, pk):
 
     work = get_object_or_404(WorkElement, pk=pk)
@@ -90,7 +92,7 @@ def edu_edit(request, pk):
         form = EduForm(instance=edu)
     return render(request, 'blog/field_edit.html', {'form': form})
 
-
+@login_required
 def skills_edit(request, pk):
 
     skill = get_object_or_404(Skills, pk=pk)
@@ -107,7 +109,7 @@ def skills_edit(request, pk):
         form = SkillsForm(instance=skill)
     return render(request, 'blog/field_edit.html', {'form': form})
 
-
+@login_required
 def extra_edit(request, pk):
 
     extra = get_object_or_404(Extra, pk=pk)

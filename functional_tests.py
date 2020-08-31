@@ -21,7 +21,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://127.0.0.1:8000')
 
         # User able to view CV section on main page
-        self.assertTrue("CV" in self.browser.page_source);
+        self.assertTrue("My CV" in self.browser.page_source);
 
         # User able to view every CV section on main page
 
@@ -30,18 +30,10 @@ class NewVisitorTest(unittest.TestCase):
             self.assertTrue(section in self.browser.page_source);
 
         #loginLink = self.browser.findElement(By.linkText("Work Summary"));
-        heading1 = self.browser.find_element_by_tag_name('h1').text
-        self.assertTrue("Work Summary" in heading1)
-        print(heading1)
+        #heading1 = self.browser.find_element_by_tag_name('h1').text
+        #self.assertTrue("Work Summary" in heading1)
         #h1 = self.browser.find_element_by_xpath('/h1/[text()="Work Summary"]')
-
         #self.assertTrue(selenium.isElementPresent("//H2[.='Work Summary']"));
-
-        #self.assertIn('To-Do', self.browser.title)  
-        #self.fail('Finish the test!')  
-
-        # She is invited to enter a to-do item straight away
-        #[...rest of comments as before]
 
 if __name__ == '__main__':  
     unittest.main(warnings='ignore')  
