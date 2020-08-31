@@ -1,4 +1,5 @@
-# [Blog](http://lauraemc.pythonanywhere.com/) - hosted on pythonanywhere.com
+# [Blog](http://lauraemc.pythonanywhere.com/) 
+-> hosted on pythonanywhere.com
 
 Created as part of University of Birmingham bridging coursework to progress from second year
 
